@@ -1,0 +1,42 @@
+const { Client, LocalAuth, MessageMedia } = require('whatsapp-web.js');
+const qrcode = require('qrcode-terminal');
+
+const client = new Client({ authStrategy: new LocalAuth, puppeteer: {
+    headless:true,
+    executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
+} });
+
+client.on('qr', (qr) => {
+    // Generate and scan this code with your phone
+    console.log('QR RECEIVED', qr);
+    qrcode.generate(qr, { small: true })
+});
+
+client.on('ready', () => {
+    console.log('Client is ready!');
+});
+
+client.on('message', async (msg) => {
+    const questions = {
+        '/kaka': 'sei lá',
+        'braza': 'oi',
+        'royal': '*Bem vindo(a) ao grupo do ROYAL SPORTS!* \n\n📱 Whatsapp: +86 135 3997 8787\n🗂 Yupoo: http://goo.gl/e7KEAd\n💵 Pagamento: Aliexpress/WU/Paypal\n-------------------------------------------------------------------------------------\n*✔ PREÇOS:*\n👕 Jerseys\n▫ Fan Lisa:\n   ▪Masculino e feminino: 12$\n   ▪Manga longa: 14$\n▫ Player lisa:\n   ▪Adidas: 15$\n   ▪Puma: 16$\n   ▪Nike: 18$\n▫ Retrô: 15$\n▫ Kit Infantil: 12$\n\n👖Short: - (Personalização do número grátis)\n   ▫ Fan: 8$\n   ▫ Player: 12$\n🧦 Meia: 3$ - 6$\n Windbreaker (Corta-Vento): 28$ a 30$',
+        'dolarcurry': 'https://www.aliexpress.us/item/3256804972742382.html?spm=5261.ProductManageOnline.0.0.5f644edfQwwwWY&gatewayAdapt=glo2usa4itemAdapt&_randl_shipto=US',
+        'tutorial': MessageMedia.fromFilePath('./tutorial.mp4'),
+        'ken pelado': MessageMedia.fromFilePath('./cadu.jpg'),
+        'quero piru': MessageMedia.fromFilePath('./cadu.jpg'),
+    }
+
+    const response = questions[msg.body.toLocaleLowerCase()];
+
+    if (response) {
+        try {
+            await msg.reply(response)
+        } catch (error) {
+            console.log({ error })
+        }
+    }
+
+});
+
+client.initialize();

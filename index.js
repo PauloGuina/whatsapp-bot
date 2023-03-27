@@ -1,10 +1,14 @@
 const { Client, LocalAuth, MessageMedia } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
+require('dotenv').config()
 
-const client = new Client({ authStrategy: new LocalAuth, puppeteer: {
-    headless:true,
-    executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
-} });
+
+const client = new Client({
+    authStrategy: new LocalAuth, puppeteer: {
+        headless: true,
+        executablePath: process.env.CHROME_PATH || '',
+    }
+});
 
 client.on('qr', (qr) => {
     // Generate and scan this code with your phone
@@ -25,6 +29,7 @@ client.on('message', async (msg) => {
         'tutorial': MessageMedia.fromFilePath('./tutorial.mp4'),
         'ken pelado': MessageMedia.fromFilePath('./cadu.jpg'),
         'quero piru': MessageMedia.fromFilePath('./cadu.jpg'),
+        '@bryannunnes': MessageMedia.fromFilePath('./bryannunnes.jpg'),
     }
 
     const response = questions[msg.body.toLocaleLowerCase()];

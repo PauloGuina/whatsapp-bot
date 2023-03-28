@@ -33,10 +33,10 @@ client.on('message', async (msg) => {
         // COMANDOS BOT
         '/kaka': 'sei lá',
         'braza': 'oi',
-        'royal': '*Bem vindo(a) ao grupo do ROYAL SPORTS!* \n\n📱 Whatsapp: +86 135 3997 8787\n🗂 Yupoo: http://goo.gl/e7KEAd\n💵 Pagamento: Aliexpress/WU/Paypal\n-------------------------------------------------------------------------------------\n*✔ PREÇOS:*\n👕 Jerseys\n▫ Fan Lisa:\n   ▪Masculino e feminino: 12$\n   ▪Manga longa: 14$\n▫ Player lisa:\n   ▪Adidas: 15$\n   ▪Puma: 16$\n   ▪Nike: 18$\n▫ Retrô: 15$\n▫ Kit Infantil: 12$\n\n👖Short: - (Personalização do número grátis)\n   ▫ Fan: 8$\n   ▫ Player: 12$\n🧦 Meia: 3$ - 6$\n Windbreaker (Corta-Vento): 28$ a 30$',
+        'royal': '*Bem vindo(a) ao grupo do ROYAL SPORTS!* \n\n📱 Whatsapp: +86 135 3997 8787\n🗂 Yupoo: http://goo.gl/e7KEAd\n💵 Pagamento: Aliexpress/WU/Paypal\n-------------------------------------------------------------------------------------\n*✔ PREÇOS:*\n👕 Jerseys\n▫ Fan Lisa:\n   ▪Masculino e feminino: 12$\n   ▪Manga longa: 14$\n▫ Player lisa:\n   ▪Adidas: 15$\n   ▪Puma: 16$\n   ▪Nike: 18$\n▫ Retrô: 15$\n▫ Kit Infantil: 12$\n\n👖Short: - (Personalização do número grátis)\n   ▫ Fan: 8$\n   ▫ Player: 12$\n🧦 Meia: 3$ - 6$\n Windbreaker (Corta-Vento): 28$ a 30$\n👚 Casual\n▫ Polo: 13$\n\n🧥➕👖 Conjuntos Kit Treino/Viagem (Agasalho + calça)\n▫ Zíper curto\n    ▪Conjunto: 42$\n    ▪Agasalho: 30$\n    ▪Calça: 18$\n▫ Zíper Completo: 45$\n    ▪ Conjunto: 45$\n    ▪Agasalho: 30$\n    ▪Calça:\n    18$\n \n *🔠 PERSONALIZAÇÃO 🔠* \n O valor deve ser adicionado ao valor da Jersey\n ▪ Nome + número: ➕ 3$\n ▪ Patch: ➕ 1$',
         'dolarcurry': 'https://www.aliexpress.us/item/3256804972742382.html?spm=5261.ProductManageOnline.0.0.5f644edfQwwwWY&gatewayAdapt=glo2usa4itemAdapt&_randl_shipto=US',
         'tutorial': MessageMedia.fromFilePath('./tutorial.mp4'),
-        '/tamanhos':MessageMedia.fromFilePath('./t1.pdf'),
+        '/tamanhos':MessageMedia.fromFilePath('./Tamanhos.pdf'),
     }
 
     const response = questions[msg.body.toLocaleLowerCase()];

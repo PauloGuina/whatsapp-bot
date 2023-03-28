@@ -22,17 +22,21 @@ client.on('ready', () => {
 
 client.on('message', async (msg) => {
     const questions = {
-        '/kaka': 'sei lá',
-        'braza': 'oi',
-        'royal': '*Bem vindo(a) ao grupo do ROYAL SPORTS!* \n\n📱 Whatsapp: +86 135 3997 8787\n🗂 Yupoo: http://goo.gl/e7KEAd\n💵 Pagamento: Aliexpress/WU/Paypal\n-------------------------------------------------------------------------------------\n*✔ PREÇOS:*\n👕 Jerseys\n▫ Fan Lisa:\n   ▪Masculino e feminino: 12$\n   ▪Manga longa: 14$\n▫ Player lisa:\n   ▪Adidas: 15$\n   ▪Puma: 16$\n   ▪Nike: 18$\n▫ Retrô: 15$\n▫ Kit Infantil: 12$\n\n👖Short: - (Personalização do número grátis)\n   ▫ Fan: 8$\n   ▫ Player: 12$\n🧦 Meia: 3$ - 6$\n Windbreaker (Corta-Vento): 28$ a 30$',
-        'dolarcurry': 'https://www.aliexpress.us/item/3256804972742382.html?spm=5261.ProductManageOnline.0.0.5f644edfQwwwWY&gatewayAdapt=glo2usa4itemAdapt&_randl_shipto=US',
-        'tutorial': MessageMedia.fromFilePath('./tutorial.mp4'),
+
+        // COMANDOS TESTE
         'ken pelado': MessageMedia.fromFilePath('./cadu.jpg'),
         'quero piru': MessageMedia.fromFilePath('./cadu.jpg'),
         '@bryannunnes': MessageMedia.fromFilePath('./bryannunnes.jpg'),
         'boa noite!': 'Boa noite!!!',
         'vai tomar no cu':'vai voce que tá mais acostumado!!! grr....🗣🗣🗣🗣⚡⚡⚡',
-        '/tamanhos':MessageMedia.fromFilePath('./t1.jpg'),('./t2.jpg'),
+
+        // COMANDOS BOT
+        '/kaka': 'sei lá',
+        'braza': 'oi',
+        'royal': '*Bem vindo(a) ao grupo do ROYAL SPORTS!* \n\n📱 Whatsapp: +86 135 3997 8787\n🗂 Yupoo: http://goo.gl/e7KEAd\n💵 Pagamento: Aliexpress/WU/Paypal\n-------------------------------------------------------------------------------------\n*✔ PREÇOS:*\n👕 Jerseys\n▫ Fan Lisa:\n   ▪Masculino e feminino: 12$\n   ▪Manga longa: 14$\n▫ Player lisa:\n   ▪Adidas: 15$\n   ▪Puma: 16$\n   ▪Nike: 18$\n▫ Retrô: 15$\n▫ Kit Infantil: 12$\n\n👖Short: - (Personalização do número grátis)\n   ▫ Fan: 8$\n   ▫ Player: 12$\n🧦 Meia: 3$ - 6$\n Windbreaker (Corta-Vento): 28$ a 30$',
+        'dolarcurry': 'https://www.aliexpress.us/item/3256804972742382.html?spm=5261.ProductManageOnline.0.0.5f644edfQwwwWY&gatewayAdapt=glo2usa4itemAdapt&_randl_shipto=US',
+        'tutorial': MessageMedia.fromFilePath('./tutorial.mp4'),
+        '/tamanhos':MessageMedia.fromFilePath('./t1.pdf'),
     }
 
     const response = questions[msg.body.toLocaleLowerCase()];

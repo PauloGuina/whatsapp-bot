@@ -31,7 +31,8 @@ client.on('message', async (msg) => {
         'quero piru': MessageMedia.fromFilePath('./cadu.jpg'),
         '@bryannunnes': MessageMedia.fromFilePath('./bryannunnes.jpg'),
         'boa noite!': 'Boa noite!!!',
-        'vai tomar no cu':'vai voce que tá mais acostumado!!! grr....🗣🗣🗣🗣⚡⚡⚡'
+        'vai tomar no cu':'vai voce que tá mais acostumado!!! grr....🗣🗣🗣🗣⚡⚡⚡',
+        '/tamanhos':MessageMedia.fromFilePath('./t1.jpg','./t2.jpg','./t3.jpg','./t4.jpg','./t5.jpg','./t6.jpg','./t7.jpg'),
     }
 
     const response = questions[msg.body.toLocaleLowerCase()];

@@ -37,7 +37,7 @@ client.on('message', async (msg) => {
         '/braza': '*Bem vindo(a) à equipe BRAZA XPORTS*.\n\n Qual o objetivo do grupo?\n Criamos o grupo com a intenção de auxiliar novos importadores no mercado a comprar com os melhores fornecedores, evitando golpes e transtornos envolvendo a qualidade do produto comprado. \n \n Com que tipo de fornecedores lidamos? \n Atualmente temos fornecedores de tailandesas e réplicas de tênis, mas usamos o grupo pra conversar sobre qualquer coisa envolvendo importação.\n Nosso linktree: https://linktr.ee/fornecedoresindicados \n \n \n Para mais dúvidas, chame algum administrador ou pergunte no grupo. \n _Equipe Braza Xports_',
         '/linktree':'https://linktr.ee/fornecedoresindicados',
         '/tutorial': MessageMedia.fromFilePath('./tutorial.mp4'),
-        '/tamanhos': MessageMedia.fromFilePath('./tamanhostailandesas.pdf'),
+        '/tamanhos': MessageMedia.fromFilePath('./t2.pdf'),
         '/cuidados': MessageMedia.fromFilePath('./cuidados.jpg'),
         '/diegobritto': MessageMedia.fromFilePath('./diegobritto.jpeg'),
         '/voli': MessageMedia.fromFilePath('./voli.jpg'),

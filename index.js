@@ -39,7 +39,7 @@ client.on('message', async (msg) => {
         '/tutorial': MessageMedia.fromFilePath('./tutorial.mp4'),
         '/tamanhos': MessageMedia.fromFilePath('./Tamanhos.pdf'),
         '/cuidados': MessageMedia.fromFilePath('./cuidados.jpg'),
-        '/diegobritto': MessageMedia.fromFilePath('./diegobritto.jpg'),
+        '/diegobritto': MessageMedia.fromFilePath('./diegobritto.jpeg'),
         '/voli': MessageMedia.fromFilePath('./voli.jpg'),
 
         '/kaka': '*Bem vindo(a) ao KAKA SHOP!* \n\n📱 Whatsapp: +86 159 7596 2575\n Link do grupo: https://chat.whatsapp.com/JXH5DMdHAMW1gdqoLSe8sX\n🗂 Yupoo: https://kakahuaze123.x.yupoo.com/\n💵 Pagamento: Aliexpress/WU/Paypal\n------------------------------------------\n*✔ PREÇOS:*\n👕 Jerseys\n\n▫ Fan Lisa:\n   ▪Masculino e feminino: 10$\n   ▪Manga longa: 14$\n   *OBS: PROMOÇÃO - 5 CAMISAS FAN POR 45$*\n▫ Player lisa:\n   ▪Adidas: 13$\n   ▪Puma: 16$\n   ▪Nike: 16$\n▫ Retrô: 16$\n▫ Kit Infantil: 14$\n\n👖Short:\n   ▫ Fan: 8$\n   ▫ Player: 12$\n🧦 Meia: 3$ - 6$\n🧥 Windbreaker (Corta-Vento): 35$\n\n👚 Casual\n▫ Polo: 13$\n\n🧥➕👖 Conjuntos Kit Treino/Viagem (Agasalho + calça)\n▫ Manga curta\n    ▪Conjunto: 28$\n▫ Manga longa\n    ▪ Conjunto: 45$\n     ------------------------------------------ \n *🔠 PERSONALIZAÇÃO 🔠* \n O valor deve ser adicionado ao valor da Jersey\n ▪ Nome + número: ➕ 3$\n ▪ Patch: ➕ 1$\n *TAMANHOS EXTRA*\n 2XL, 3XL, 4XL: + 1$ \n \n \n _Equipe Braza Xports.',

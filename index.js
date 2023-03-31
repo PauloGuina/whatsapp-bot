@@ -31,7 +31,7 @@ client.on('message', async (msg) => {
         'vai tomar no cu':'vai voce que tá mais acostumado!!! grr....🗣🗣🗣🗣⚡⚡⚡',
         'Bom dia!!!':'Bom dia meu amor!',
         '...':'Aiiiiii... que ódiooo!!',
-        'Boa noite Vine' : MessageMedia.fromFilePath('./bryannunnes.jpg'),
+        '/boanoitevine' : MessageMedia.fromFilePath('./cadu.jpg'),
 
         // COMANDOS BOT BRAZA
         '/ajuda': '📱 *COMANDOS BOT DO BRAZA*\n\n*/braza* - Informações a respeito da equipe Braza \n*/linktree* - Link do nosso linktree \n*/tutorial* - Nosso vídeo de tutorial (mande apenas uma vez, pode demorar a enviar) \n*/tamanhos* - Lista de tamanhos das camisas \n*/cuidados* - Foto com os cuidados que devem ser tomados com as camisas.  \n*/forms* - Link do Forms (BRAZA XPORTS) onde você deve colocar seu ID da ordem. \n*/1.1* - Resposta se a camisa tá 1.1 \n*/drive* - Link do Drive com fornecedores indicados (em progresso)\n\n*COM FORNECEDORES* \n\n*/kaka* - Informações do fornecedor KAKA\n*/dolarkaka* - Link de pagamento do KAKA \n\n*/royal* - Informações do fornecedor ROYAL \n*/dolarroyal* - Link de pagamento do fornecedor ROYAL\n\n_E segue neste padrão para os fornecedores Curry e Guo_',

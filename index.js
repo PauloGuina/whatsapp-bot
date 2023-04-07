@@ -40,7 +40,7 @@ client.on('message', async (msg) => {
         '/tutorial': '*LINK DO TUTORIAL NO YOUTUBE* \n\nhttps://youtu.be/t4ErU0BeKx4',
         '/tamanhos': MessageMedia.fromFilePath('./Tamanhos.pdf'),
         '/cuidados': MessageMedia.fromFilePath('./cuidados.jpg'),
-        '/catalogo': MessageMedia.fromFilePath('./catalogo.pdf'),
+        '/catalogo': '*LINK PARA O NOSSO CATÁLOGO:* \n\n https://drive.google.com/file/d/1PUudBxcqFalu9ps7BdE-AUZ8amQvSWbz/view',
         '/diegobritto': MessageMedia.fromFilePath('./diegobritto.jpeg'),
         '/voli': MessageMedia.fromFilePath('./voli.jpg'),
         '??':'!!',

@@ -1,4 +1,3 @@
-require("dotenv").config();
 const baileys = require("@adiwajshing/baileys");
 const path = require("path");
 const pino = require("pino");

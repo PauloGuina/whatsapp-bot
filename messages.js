@@ -6,17 +6,17 @@ const message_list = {
   "boa noite!": { text: "Olá!" },
 
   "quero piru": {
-    image: fs.readFileSync("./cadu.jpg"),
+    image: fs.readFileSync("./media/cadu.jpg"),
   },
 
   "...": { text: "Aiiiiii... que ódiooo!!" },
 
   "ken pelado": {
-    image: fs.readFileSync("./cadu.jpg"),
+    image: fs.readFileSync("./media/cadu.jpg"),
   },
 
   "@bryannunnes": {
-    image: fs.readFileSync("./bryannunnes.jpg"),
+    image: fs.readFileSync("./media/bryannunnes.jpg"),
   },
 
   "/ajuda": {
@@ -37,15 +37,15 @@ const message_list = {
     text: "*LINK DO PDF DA TABELA DE TAMANHOS*: \n\nhttps://drive.google.com/file/d/1GtoQksDfL3lqf5wKDV1ZFJgQKaP10RTS/view?usp=share_link",
   },
 
-  "/cuidados": { image: fs.readFileSync("./cuidados.jpg") },
+  "/cuidados": { image: fs.readFileSync("./media/cuidados.jpg") },
 
   "/catalogo": {
     text: "*LINK PARA O NOSSO CATÁLOGO:* \n\n https://drive.google.com/file/d/1PUudBxcqFalu9ps7BdE-AUZ8amQvSWbz/view",
   },
 
-  "/diegobritto": { image: fs.readFileSync("./diegobritto.jpeg") },
+  "/diegobritto": { image: fs.readFileSync("./media/diegobritto.jpeg") },
 
-  "/voli": { image: fs.readFileSync("./voli.jpg") },
+  "/voli": { image: fs.readFileSync("./media/voli.jpg") },
 
   "??": { text: "!!" },
 

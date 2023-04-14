@@ -23,15 +23,16 @@ const auth_folder = path.resolve("./auth");
 
 store.readFromFile(store_file);
 
-setInterval(() => {
-  store.writeToFile(store_file);
-}, 10 * 1000);
+// setInterval(() => {
+//   store.writeToFile(store_file);
+// }, 10 * 1000);
 
 let sock = null;
 
 const connect = async (ws) => {
   const { state, saveCreds } = await useMultiFileAuthState(auth_folder);
   const { version, isLatest } = await fetchLatestBaileysVersion();
+  store.writeToFile(store_file);
 
   sock = makeWaSocket({
     version,

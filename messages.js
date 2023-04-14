@@ -9,6 +9,10 @@ const message_list = {
     image: fs.readFileSync("./media/cadu.jpg"),
   },
 
+  "no sofazinho é mais gostoso...": {
+    image: fs.readFileSync("./media/sofa.jpg"),
+  },
+
   "...": { text: "Aiiiiii... que ódiooo!!" },
 
   "ken pelado": {

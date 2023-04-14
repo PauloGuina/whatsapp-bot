@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node .",
-    "ssh": "ssh -i \"PARDECHAVE.pem\" ec2-user@ec2-15-228-60-7.sa-east-1.compute.amazonaws.com"
+    "ssh": "ssh -i \"PARDECHAVE.pem\" ubuntu@ec2-15-228-251-16.sa-east-1.compute.amazonaws.com"
   },
   "keywords": [],
   "author": "",

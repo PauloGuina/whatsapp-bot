@@ -9,6 +9,10 @@ const message_list = {
     image: fs.readFileSync("./media/cadu.jpg"),
   },
 
+  "ok cadu.": {
+    text: "😍"
+  },
+
   "no sofazinho é mais gostoso...": {
     image: fs.readFileSync("./media/sofa.jpg"),
   },
@@ -57,7 +61,7 @@ const message_list = {
     text: "*Bem vindo(a) ao KAKA SHOP!* \n\n📱 Whatsapp: +86 159 7596 2575\n\nLink do grupo: https://chat.whatsapp.com/JXH5DMdHAMW1gdqoLSe8sX\n\n🗂 Yupoo: https://kakahuaze123.x.yupoo.com/\n💵 Pagamento: Aliexpress/WU/Paypal\n------------------------------------------\n*✔ PREÇOS:*\n👕 Jerseys\n\n▫ Fan Lisa:\n ▪Masculino e feminino: 10$\n ▪Manga longa: 14$\n *OBS: PROMOÇÃO - 5 CAMISAS FAN POR 48$*\n▫ Player lisa:\n ▪Adidas: 13$\n ▪Puma: 16$\n ▪Nike: 16$\n▫ Retrô: 16$\n▫ Kit Infantil: 14$\n\n👖Short:\n ▫ Fan: 8$\n ▫ Player: 12$\n🧦 Meia: 3$ - 6$\n🧥 Windbreaker (Corta-Vento): 35$\n\n👚 Casual\n▫ Polo: 13$\n\n🧥➕👖 Conjuntos Kit Treino/Viagem (Agasalho + calça)\n▫ Manga curta\n  ▪Conjunto: 28$\n▫ Manga longa\n  ▪ Conjunto: 45$\n   ------------------------------------------ \n*🔠 PERSONALIZAÇÃO 🔠* \nO valor deve ser adicionado ao valor da Jersey\n▪ Nome + número: ➕ 3$\n▪ Patch: ➕ 1$\n\n*TAMANHOS EXTRA*\n2XL, 3XL, 4XL: + 1$ \n\n\n_Equipe Braza Xports._",
   },
 
-  "/dolarkaka": { text: "*LINK DE COMPRA KAKA* \nhttps://cutt.ly/h4LKwCg" },
+  "/dolarkaka": { text: "*LINK DE COMPRA KAKA* \nhttps://www.aliexpress.com/item/1005005410235828.html?spm=5261.ProductManageOnline.0.0.602a4edfQYlhBz" },
 
   "/royal": {
     text: "*Bem vindo(a) ao grupo do ROYAL SPORTS!* \n\n📱 Whatsapp: +86 135 3997 8787\n\nLink do grupo: https://chat.whatsapp.com/H5qkZYio99O1NRbZdWuNgO \n\n🗂 Yupoo: http://goo.gl/e7KEAd\n💵 Pagamento: Aliexpress/WU/Paypal\n------------------------------------------\n*✔ PREÇOS:*\n👕 Jerseys\n\n▫ Fan Lisa:\n ▪Masculino e feminino: 12$\n ▪Manga longa: 14$\n▫ Player lisa:\n ▪Adidas: 15$\n ▪Puma: 16$\n ▪Nike: 18$\n▫ Retrô: 15$\n👶 Kit Infantil: 12$\n\n👖Short:\n ▫ Fan: 8$\n ▫ Player: 12$\n🧦 Meia: 3$ - 6$\n🧥 Windbreaker (Corta-Vento): 28$ a 30$\n\n👚 Casual\n▫ Polo: 13$\n\n🧥➕👖 Conjuntos Kit Treino/Viagem (Agasalho + calça)\n▫ Manga curta\n  ▪Conjunto: 42$\n▫ Manga longa\n  ▪ Conjunto: 45$\n   ------------------------------------------ \n*🔠 PERSONALIZAÇÃO 🔠* \nO valor deve ser adicionado ao valor da Jersey\n▪ Nome + número: ➕ 3$\n▪ Patch: ➕ 1$\n\n*TAMANHOS EXTRA*\n2XL, 3XL, 4XL: + 1$ \n\n\n_Equipe Braza Xports._",
@@ -71,7 +75,7 @@ const message_list = {
     text: "*Bem vindo(a) ao grupo do fornecedor CURRY!* \n\n📱 Whatsapp: +86 181 2218 0753\n\nLink do grupo: https://chat.whatsapp.com/CqYP1oN27sX7Y06JYCm1gs \n\n🗂 Yupoo \n*FOOTBALL*: https://cutt.ly/k4LZb8Q \n*NBA*: https://cutt.ly/F4LZTCk \n💵 Pagamento: Aliexpress/WU/Paypal\n------------------------------------------\n*✔ PREÇOS:*\n👕 Jerseys\n\n▫ Fan Lisa:\n ▪Masculino e feminino: 10$\n ▪Manga longa: 14$\n*OBS: PROMOÇÃO*\n 3 CAMISAS FAN POR 30$ + FRETE GRÁTIS \n 4 CAMISAS FAN POR 38$ + FRETE GRÁTIS \n 5 CAMISAS FAN POR 45$ + FRETE GRÁTIS \n▫ Player lisa:\n ▪Adidas: 13$\n ▪Puma: 16$\n ▪Nike: 16$\n▫ Retrô: 16$\n▫ Kit Infantil: 14$\n\n👖Short:\n ▫ Fan: 8$\n ▫ Player: 12$\n🧦 Meias: 3$ - 7$\n🧥 Windbreaker (Corta-Vento): 28$ a 30$\n\n👚 Casual\n▫ Polo: 13$\n\n🧥➕👖 Conjuntos Kit Treino/Viagem (Agasalho + calça)\n▫ Manga curta\n  ▪Conjunto: 42$\n▫ Manga longa\n  ▪ Conjunto: 45$\n\n🏀NBA: $19 \n\n------------------------------------------ \n*🔠 PERSONALIZAÇÃO 🔠* \nO valor deve ser adicionado ao valor da Jersey\n▪ Nome + número: ➕ 3$\n▪ Patch: ➕ 1$\n\n*TAMANHOS EXTRA*\n2XL, 3XL, 4XL: + 1$ \n\n\n_Equipe Braza Xports._",
   },
 
-  "/dolarcurry": { text: "*LINK DE COMPRA CURRY*\nhttps://cutt.ly/s4LFXA6" },
+  "/dolarcurry": { text: "*LINK DE COMPRA CURRY*\nhttps://pt.aliexpress.com/item/1005005473365814.html?spm=5261.ProductManageOnline.0.0.697a4edfEmrpmQ&gatewayAdapt=glo2bra" },
 
   "/guo": {
     text: "*Bem vindo(a) ao grupo do fornecedor GUO!* \n\n📱 Whatsapp: +86 181 2218 0753\n\nLink do grupo: https://chat.whatsapp.com/G5yAyYE1zTC6l5SrLd1Sur \n\n🗂 Yupoo \n*FOOTBALL*: https://x.yupoo.com/photos/zhouchangliang/albums \n💵 Pagamento: Aliexpress/WU/Paypal\n------------------------------------------\n*✔ PREÇOS:*\n👕 Jerseys\n\n▫ Fan Lisa:\n ▪Masculino e feminino: 10$\n ▪Manga longa: 13$\n▫ Player lisa:\n ▪Adidas: 15$\n ▪Puma: 15$\n ▪Nike: 17$\n\n▫ Retrô: 15$ ~ 18$ \n▫ Kit Infantil: 14$\n\n👖Short:\n ▫ Fan: 9$\n ▫ Player: 12$\n🧥 Windbreaker (Corta-Vento): 30$\n\n👚 Casual\n▫ Polo: 13$\n\n🧥➕👖 Conjuntos Kit Treino/Viagem (Agasalho + calça)\n▫ Manga curta\n  ▪Conjunto: 42$\n▫ Manga longa\n  ▪ Conjunto: 45$\n\n🏀NBA: Conferir com o fornecedor (modelos variados) \n\n------------------------------------------ \n*🔠 PERSONALIZAÇÃO 🔠* \nO valor deve ser adicionado ao valor da Jersey\n▪ Nome + número: ➕ 3$\n▪ Patch: ➕ 1$\n\n*TAMANHOS EXTRA*\n2XL, 3XL, 4XL: + 1$ \n\n\n_Equipe Braza Xports._",
@@ -92,7 +96,7 @@ const message_list = {
   },
 
   "/dolarlichang": {
-    text: "*LINK DE PAGAMENTO LICHANG* \n\nhttps://www.aliexpress.com/item/1005005436009452.html?spm=5261.ProductManageOnline.0.0.449271979TuVQp",
+    text: "*LINK DE PAGAMENTO LICHANG* \n\nhttps://www.aliexpress.com/item/1005005459337469.html?spm=5261.ProductManageOnline.0.0.45be71976Z9sn3",
   },
 
   "/jeff": {
@@ -113,6 +117,18 @@ const message_list = {
 
   "/chuteiras": {
     text: "Tabela de preços Tim🔥\n\nA melhor do segmento de tênis e chuteiras  🛍️👟\n\n⚠️ PREÇOS APROXIMADOS ⚠️\n\n\n⚽ CHUTEIRAS CAMPO ⚽\n\nNike Phantom GT Elite: 52$\nNike Phantom GT Dynamic Fit: 55$\nNike SuperFly 6 Elite: 55$\nNike SuperFly 7 Elite: 55$\nNike SuperFly 8 Elite: 57$\nNike Vapor 13 Elite: 55$\nNike Vapor 14 Elite: 55$\nNike Tiempo Legend 9 Elite: 52$\nNike Tiempo Legend 8 Elite: 50$\nAdidas X Ghosted FG: 55$\nAdidas X GHOSTED F50 FG 55$\nAdidas Predcopx FG: 55$\nAdidas X Ghosted FG: 55$\nAdidas X Ghosted AG: 50$\nAdidas X Speedflow+: 55$\nAdidas X Speedflow.1 : 54$\nAdidas Predator 20.1 FG: 52$\nAdidas Predator Mutator 20.1 Low FG: 50$\nAdidas Predator Mutator 20+ FG: 55$\nAdidas Predator Accelerator  FG: 55$\nAdidas Predator Freak + FG: 59$\nAdidas Predator Freak.1 MID FG: 57$\nAdidas Predator Freak.1 FG: 55$\nAdidas Predator Edge.1 FG: 59$\nAdidas Predator Edge+ FG: 57$\nAdidas Copa 20.1: 49$\nAdidas Copa Sense+: 57$\nAdidas Copa 20+ FG: 50$\nAdidas Nemezis 19+ FG: 55$\nAdidas Nemezis 19.1 FG: 49$\nPuma Future Z FG: 50$\nMizuno Morelia Neo III FG: 49$\n\n\n⚽ CHUTEIRAS SOCIETY ⚽\n\nNike Phantom GT Pro: 45$\nNike SuperFly 6 Elite: 50$\nNike SuperFly 7 Elite: 50$\nNike SuperFly 8 Elite: 59$\nNike Vapor 13 Elite: 50$\nNike Vapor 14 Pro: 59$\nNike Tiempo Legend 8 Elite: 47$\nNike Tiempo Legend 9 Elite: 47$\nNike Zoom VSN 2 Pro: 49$\nAdidas X Ghosted TF: 45$\nAdidas Copa 20.1 TF: 47$\nPuma Future Z TF: 49$\n\n⚽ CHUTEIRAS SALÃO ⚽\n\nNike Phantom GT Pro: 45$\nNike SuperFly 6 Elite: 49$\nNike SuperFly 7 Elite: 49$\nNike SuperFly 8 Pro: 59$\nNike Zoom VSN 1 e 2 Pro: 45$\nNike React Gato: 47$\nNike Tiempo Legend 8 Elite: 47$\nNike Tiempo Legend 9 Elite: 47$\nNike Tiempo Lunar Legend VIII IC: 45$\nAdidas Predator Mutator 20+ IN: 49$\nMizuno Morelia Neo III TF: 45\nPuma Future Z: ?$\n\n\n _Equipe Braza Xports_",
+  },
+
+  "/jiny": {
+    text: "*Seja bem-vindo ao grupo do fornecedor JINY*\n\n O fornecedor trabalha com tênis, chuteiras e roupas de grife. Dê uma olhada nos catálogos a seguir: \n\n*TÊNIS DIVERSOS*:\nhttps://gm1688.x.yupoo.com/albums\nhttp://pthjf398510039.x.yupoo.com/albums\nhttps://wx888888.x.yupoo.com\nhttps://424334770.x.yupoo.com\nhttps://feiyumaoyi66666.x.yupoo.com/albums\nhttps://aishang911.x.yupoo.com/albums\nhttps://feiyue889.x.yupoo.com\nhttp://xh6181.x.yupoo.com/albums\n http://ygshoes188.com\n https://x.yupoo.com/photos/qinghong666/albums\n\n *CHUTEIRAS / TÊNIS DE BASQUETE:* \n\nhttps://xy0594xy.x.yupoo.com\nhttp://x.yupoo.com/photos/qiumishijie/albums\n\n *TÊNIS INFANTIS*:\n\n https://zhujiangniao.x.yupoo.com/albums/77329376?uid=1&referrercate=850261 \n\n *GRIFES*: \n\n https://zhujiangniao.x.yupoo.com/albums/19735482?uid=1&referrercate=849263",
+  },
+
+  "/zifeng": {
+    text: "*BEM-VINDO*\n\n🈺 FORNECEDOR *ZI FENG* +8615989179099\n\n📓 CATÁLOGO: https://194939.x.yupoo.com/\n\n👕 *CAMISAS DE FUTEBOL*\nFAN $12 / A PARTIR DE 3 $11\nPLAYER $14 ADIDAS / $16 NIKE\nMANGA LONGA $16\nRETRÔ $14\nKIT INFANTIL $12\n\n🧥 *OUTROS*\nKIT TREINO $31 A $40\nSHORT $9\nMEIÕES $5\nCAMISA POLO $13\nCORTA-VENTO $29\n\n➕ *ADICIONAIS:*\nPERSONALIZAR +$2\nPERSONALIZAÇÃO PHOTOSHOP +$4\nTAM. 2XL +$1\nTAM. 3XL E 4XL +$2\nPATCH +$0,50\n\n\n⛹️ *CAMISAS DE BASQUETE / FUTEBOL AMERICANO*\nFAN $17~18 / JOGADOR $22 / RETRO $21\nNFL $27\n\n🛩️ *FRETE*\n01 PEÇA +$3 \n02 PEÇAS OU MAIS *FRETE GRÁTIS*\n\n_Equipe Braza Xports_",
+  },
+
+  "/dolarzifeng": {
+    text: "LINK DE PAGAMENTO ZIFENG:\n\nhttps://cutt.ly/Q73B0r5",
   },
 
 

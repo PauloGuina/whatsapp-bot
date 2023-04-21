@@ -120,7 +120,7 @@ const message_list = {
   },
 
   "/jiny": {
-    text: "*Seja bem-vindo ao grupo do fornecedor JINY*\n\n O fornecedor trabalha com tênis, chuteiras e roupas de grife. Dê uma olhada nos catálogos a seguir: \n\n*TÊNIS DIVERSOS*:\nhttps://gm1688.x.yupoo.com/albums\nhttp://pthjf398510039.x.yupoo.com/albums\nhttps://wx888888.x.yupoo.com\nhttps://424334770.x.yupoo.com\nhttps://feiyumaoyi66666.x.yupoo.com/albums\nhttps://aishang911.x.yupoo.com/albums\nhttps://feiyue889.x.yupoo.com\nhttp://xh6181.x.yupoo.com/albums\n http://ygshoes188.com\n https://x.yupoo.com/photos/qinghong666/albums\n\n *CHUTEIRAS / TÊNIS DE BASQUETE:*\nhttps://xy0594xy.x.yupoo.com\nhttp://x.yupoo.com/photos/qiumishijie/albums\n\n *TÊNIS INFANTIS*:\n https://zhujiangniao.x.yupoo.com/albums/77329376?uid=1&referrercate=850261 \n\n *GRIFES*:\n https://zhujiangniao.x.yupoo.com/albums/19735482?uid=1&referrercate=849263",
+    text: "*Seja bem-vindo ao grupo do fornecedor JINY*\n\n O fornecedor trabalha com tênis, chuteiras e roupas de grife. Dê uma olhada nos catálogos a seguir: \n\n*TÊNIS DIVERSOS*:\nhttps://gm1688.x.yupoo.com/albums\nhttp://pthjf398510039.x.yupoo.com/albums\nhttps://wx888888.x.yupoo.com\nhttps://424334770.x.yupoo.com\nhttps://feiyumaoyi66666.x.yupoo.com/albums\nhttps://aishang911.x.yupoo.com/albums\nhttps://feiyue889.x.yupoo.com\nhttp://xh6181.x.yupoo.com/albums\n http://ygshoes188.com\n https://x.yupoo.com/photos/qinghong666/albums\n\n *CHUTEIRAS / TÊNIS DE BASQUETE:*\nhttps://xy0594xy.x.yupoo.com\nhttp://x.yupoo.com/photos/qiumishijie/albums\n\n *TÊNIS INFANTIS*:\nhttps://zhujiangniao.x.yupoo.com/albums/77329376?uid=1&referrercate=850261\n\n*GRIFES*:\nhttps://zhujiangniao.x.yupoo.com/albums/19735482?uid=1&referrercate=849263",
   },
 
   "/zifeng": {

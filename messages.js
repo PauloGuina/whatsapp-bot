@@ -13,8 +13,12 @@ const message_list = {
     text: "😍"
   },
 
-    "cubo": {
+  "cubo": {
     text: "🤓🏳️‍⚧️"
+  },
+
+  "primo": {
+    text: "priminho..."
   },
 
   "no sofazinho é mais gostoso...": {
@@ -150,6 +154,14 @@ const message_list = {
 
   "/dolarzhou": {
     text: "LINK DE PAGAMENTO ZHOU:\n\nhttps://www.aliexpress.com/item/1005005166932715.html?spm=5261.ProductManageOnline.0.0.15564edfOwmOjA",
+  },
+
+  "/xiaoming": {
+    text: "🇨🇳🇧🇷 XIAO MING 🇧🇷🇨🇳\n\nhttps://16620059194.x.yupoo.com/\n👕Camisa Fan = $10\n👕Camisa Player  = Adidas 13$ Nike16$ \n🔟Personalização (nome e número) =3$\n💻Patch = 1$\n*tamanho XXL=1$ \n*tamanho XXXL=2$\n👕Camisa de Manga Longa =13$\n🎽Retrô = 16$ \n👦🏻Kit  Infantil = 13 $\n\n🩳Shorts = 8$ \n🩳NBA = 20$ - 23$\n🧥Corta-vento = 36$-38$\n🧥Corta-vento Kit de Treino=43$\n👖 Calça de Treino = 18$\n👕👖Kit de Treino  Manga Curta=26$ \n👕👖Kit de Treino  Manga Longa= 32$\n📦👕1 Camisa - Frete = 5$\n📦👕2 Camisas - Frete = 4$\n📦👕3 Camisas - Frete= 3$\n📦👕4 Camisas - Frete = GRÁTIS\n Equipe Braza Xports_",
+  },
+
+  "/dolarxiaoming": {
+    text: "LINK DE PAGAMENTO XIAO MING:\n\nhttps://www.aliexpress.com/item/1005005202510659.html?spm=5261.ProductManageOnline.0.0.577f4edfp4QXr7",
   },
 
   "/simon": {

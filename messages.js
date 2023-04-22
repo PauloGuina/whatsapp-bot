@@ -13,7 +13,7 @@ const message_list = {
     text: "😍"
   },
 
-    "Cubo": {
+    "cubo": {
     text: "🤓🏳️‍⚧️"
   },
 

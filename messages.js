@@ -13,6 +13,10 @@ const message_list = {
     text: "😍"
   },
 
+    "ok cadu.": {
+    text: "🤓🏳️‍⚧️"
+  },
+
   "no sofazinho é mais gostoso...": {
     image: fs.readFileSync("./media/sofa.jpg"),
   },

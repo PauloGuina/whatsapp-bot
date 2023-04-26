@@ -36,7 +36,7 @@ const message_list = {
 
   "??": { text: "!!" },
 
-  "Edson Branco": { text: "Macaco" },
+  "edson branco": { text: "Macaco" },
 
   "m!p ciumenta": { image: fs.readFileSync("./media/diegobritto.jpeg") },
 

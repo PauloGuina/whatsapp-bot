@@ -62,7 +62,7 @@ const message_list = {
   },
 
   "/tamanhos2": {
-    text: "*PADRÃO DE TAMANHO QUE VOCÊ DEVE MANDAR PARA O FORNECEDOR* \nP = *S*\n*M = M*\nG = *L*\nGG = *XL*\nXG1 = *2XL*\nXG2 = *3XL*\nXG3 = *4XL*\n\n Lembrando que alguns modelos não vão até 4XL. Se informe com o vendedor antes de falar pro seu cliente que tem o disponível nos tamanhos maiores.",
+    text: "*PADRÃO DE TAMANHO QUE VOCÊ DEVE MANDAR PARA O FORNECEDOR*\n\nP = *S*\nM = *M*\nG = *L*\nGG = *XL*\nXG1 = *2XL*\nXG2 = *3XL*\nXG3 = *4XL*\n\nLembrando que alguns modelos não vão até 4XL. Se informe com o vendedor antes de falar pro seu cliente que tem o modelo disponível nos tamanhos maiores.",
   },
 
   "/cuidados": { image: fs.readFileSync("./media/cuidados.jpg") },

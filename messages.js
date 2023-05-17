@@ -40,6 +40,9 @@ const message_list = {
 
   "m!p ciumenta": { image: fs.readFileSync("./media/diegobritto.jpeg") },
 
+    "valeu cadu.": {
+    text: "👍",
+  },
 
   // BRAZA 
 

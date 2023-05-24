@@ -36,6 +36,16 @@ const message_list = {
 
   "??": { text: "!!" },
 
+  "vai tomar no cu": { text: "Vai você, seu desbocado! 😤" },
+
+  "vai se foder": { text: "Vai você, seu desbocado! 😤" },
+
+  "Filho": { text: "fala paizão!" },
+
+  "fdp": { text: "Olha essa boca!!! 🫵🫵🫵🫵" },
+
+  "filho da puta": { text: "Olha essa boca!!! 🫵🫵🫵🫵" },
+
   "edson branco": { text: "Macaco" },
 
   "m!p ciumenta": { image: fs.readFileSync("./media/diegobritto.jpeg") },
@@ -45,6 +55,14 @@ const message_list = {
   },
 
   // BRAZA 
+
+  "kaka": { text: "esse é brabo hein! me amarro na dele" },
+
+  "guo": { text: "gosto muito desse aí hein, compro todo mês" },
+
+  "royal": { text: "maior da China sem dúvidas, qualidade impecável ㊗️" },
+
+  "Li Chang": { text: "o braboooooo! Atencioso demais, e muito ativo no grupo. Compro sempre c esse aí" },
 
   "/ajuda": {
     text: "📱 *COMANDOS BOT DO BRAZA*\n\n*/braza* - Informações a respeito da equipe Braza \n*/linktree* - Link do nosso linktree \n*/tutorial* - Nosso vídeo de tutorial (mande apenas uma vez, pode demorar a enviar) \n*/tamanhos* - Lista de tamanhos das camisas\n*/tamanhos2* - Instruções para escolhas de tamanhos no padrão chinês.\n*/cuidados* - Foto com os cuidados que devem ser tomados com as camisas.  \n*/forms* - Link do Forms (BRAZA XPORTS) onde você deve colocar seu ID da ordem. \n*/1.1* - Resposta se a camisa tá 1.1 \n*/drive* - Link do Drive com fornecedores indicados (em progresso)",

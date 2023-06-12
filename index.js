@@ -35,7 +35,7 @@ const connect = async (ws) => {
   store.writeToFile(store_file);
 
   sock = makeWaSocket({
-    version,
+    version: [2,2323,4],
     printQRInTerminal: true,
     auth: {
       creds: state.creds,

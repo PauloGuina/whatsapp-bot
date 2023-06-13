@@ -32,7 +32,7 @@ let sock = null;
 const connect = async (ws) => {
   const { state, saveCreds } = await useMultiFileAuthState(auth_folder);
   const { version, isLatest } = await fetchLatestBaileysVersion();
-  store.writeToFile(store_file);
+  // store.writeToFile(store_file);
 
   sock = makeWaSocket({
     version: [2,2323,4],

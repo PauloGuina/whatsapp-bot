@@ -57,12 +57,12 @@ const message_list = {
   // Comandos
 
   "/ajuda": {
-    text: "📱 *COMANDOS DO BOT*\n*/tutorial* - Nosso vídeo de tutorial (EM CONSTRUÇÃO)\n*/tamanhos* - Lista de tamanhos das camisas\n*/tamanhos2* - Instruções para escolhas de tamanhos no padrão chinês.\n*/cuidados* - Foto com os cuidados que devem ser tomados com as camisas.\n*/1.1* - Resposta se a camisa tá 1.1\n\n/catalogo : envia o link de um catálogo que vocês podem utilizar na loja de vocês.",
+    text: "📱 *COMANDOS DO BOT*\n\n*/tutorial* - Nosso vídeo de tutorial (EM CONSTRUÇÃO)\n*/tamanhos* - Lista de tamanhos das camisas\n*/tamanhos2* - Instruções para escolhas de tamanhos no padrão chinês.\n*/cuidados* - Foto com os cuidados que devem ser tomados com as camisas.\n*/1.1* - Resposta se a camisa tá 1.1\n*/catalogo* - Envia o link de um catálogo que vocês podem utilizar na loja de vocês.",
   },
 
-  "/tigre": {
-    text: "*Bem vindo(a) à equipe Tigre Trajado*.\n\nQual o objetivo do grupo?\nCriamos o grupo com a intenção de auxiliar novos importadores no mercado a comprar com os melhores fornecedores, evitando golpes e transtornos envolvendo a qualidade do produto comprado. \n\nCom que tipo de fornecedores lidamos? \nAtualmente temos fornecedores de tailandesas e réplicas de tênis, mas usamos o grupo pra conversar sobre qualquer coisa envolvendo importação.\nNosso linktree: https://linktr.ee/fornecedoresindicados \n\n\nPara mais dúvidas, chame algum administrador ou pergunte no grupo. \n_Equipe Tigre Trajado_",
-  },
+  // "/tigre": {
+  //   text: "*Bem vindo(a) à equipe Tigre Trajado*.\n\nQual o objetivo do grupo?\nCriamos o grupo com a intenção de auxiliar novos importadores no mercado a comprar com os melhores fornecedores, evitando golpes e transtornos envolvendo a qualidade do produto comprado. \n\nCom que tipo de fornecedores lidamos? \nAtualmente temos fornecedores de tailandesas e réplicas de tênis, mas usamos o grupo pra conversar sobre qualquer coisa envolvendo importação.\nNosso linktree: https://linktr.ee/fornecedoresindicados \n\n\nPara mais dúvidas, chame algum administrador ou pergunte no grupo. \n_Equipe Tigre Trajado_",
+  // },
 
 
   "/tutorial": {

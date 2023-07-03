@@ -40,7 +40,7 @@ const message_list = {
 
   "vai se foder": { text: "Vai você, seu desbocado! 😤" },
 
-  "Filho": { text: "fala paizão!" },
+  "filho": { text: "fala paizão!" },
 
   "fdp": { text: "Olha essa boca!!! 🫵🫵🫵🫵" },
 
@@ -87,12 +87,24 @@ const message_list = {
     text: "Se saiu tem pouco tempo, é por sua conta e risco! Ninguém acerta de primeira, não seria um chinês que mudaria essa história. \n\nAguarde pelo menos 1 mês após o lançamento para efetuar a compra se quer comprar sem riscos.",
   },
 
+  "bem vindos": {
+    text: "Sejam bem vindos, pessoal.\n\n Trabalhamos com um fornecedor que vende as peças a 9 dólares (próximo de 45 reais). Ele é Chinês, faz todo o esquema pra trazer aqui pro Brasil da melhor forma e no menor preço pra vocês.\n\n Muitos de vocês já conhecem o esquema, mas caso não saiba como importar e fazer sua primeira compra ainda, digite */comocomprar* que eu tenho uma resposta pronta pra isso.",
+  },
+
+  "/comocomprar": {
+    text: "*COMO EFETUAR SUA PRIMEIRA COMPRA*\n\n*PRIMEIRO PASSO*\nSelecione sua camisa no catálogo yupoo, tire print e entre em contato com o CHINÊS do grupo (+86 ...)\n\n*SEGUNDO PASSO*\nEnvie fotos da camisa para ele, seguindo o seguinte padrão:\nType: Fan, Player, Retro ou afins\nSize: S, M, L, 2XL, 3XL, 4XL (digite /tamanhos2 para pegar a relação caso não saiba)\nWoman (se a camisa for feminina), Man (se for masculina)\n _Caso tenha customização_\nName: (NOMECUSTOMIZAÇÃO) -> Tudo em maiúsculo para o fornecedor não se confundir\nNumber: (NÚMERO)\n\n*TERCEIRO PASSO*\n após recolher seu pedido, o fornecedor irá te mandar um link do Aliexpress, geralmente o item vai custar algo em torno de 1 dólar.\nJunto ao link, o fornecedor te enviará o valor que deve ser pago. Por exemplo:\n9+5 = 13\nE aí você irá comprar 13 unidades do produto e enviar o ID da ordem pra ele.\n Depois disso, basta só aguardar que ele te enviará a foto do seu pedido pra você conferir antes que ele envie.", 
+  },
+
+
   // FORNECEDORES 
 
   "/molaosi": {
-    text: "*BEM VINDO*\n\n*Grupo do fornecedor MO LAOSI!* \n\n📱 Whatsapp: +86 131 8902 1819\n\n🗂 Yupoo: https://vpi123.x.yupoo.com/ \n💵 Pagamento: Aliexpress/WU/Paypal\n------------------------------------------\n💵TABELA MO LAOSI\n\n👕 Fan = 9$ \n\n👕 Player\nAdidas = 14$\nNike =  16$\n\n🧒🏻 Kit Infantil = 13$\n\n🩳 Short\nCom Bolso = 12$\nSem Bolso = 8$\n\n🧦 Meia = 6$\n\n🧥👖 CONJUNTOS\nZíper até o Peito = 40/42$\nZíper completo = 43/48$\n\n👕 Polo = 13$\n\n🧥 Corta vento ou jaqueta = 30/35$\n\n👖 Calça = 17$\n\n📆 Camisa Retrô = 15$\n\n🏀 NBA\nBordada = 19$ a 24$\nSilkada = 20 a 24$\n\n👕 NOME E NÚMERO = 3$\n\n👕➕ TAMANHO EXTRA\n2XL +1$ \n3XL +2$\n\nPATCH🏆 = 1$ \n\n ✈️ FRETE\n👕 = 5$\n👕👕 = 4$\n👕👕👕 = 3$\n👕👕👕👕= 2$\n👕👕👕👕👕 = GRÁTIS!\n",
+    text: "*BEM VINDO*\n\n*Grupo do fornecedor MO LAOSI!* \n\n📱 Whatsapp: +86 131 8902 1819\n\n🗂 Yupoo: royal-sports.x.yupoo.com \n💵 Pagamento: Aliexpress/WU/Paypal\n------------------------------------------\n💵TABELA MO LAOSI\n\n👕 Fan = 9$ \n\n👕 Player\nAdidas = 14$\nNike =  16$\n\n🧒🏻 Kit Infantil = 13$\n\n🩳 Short\nCom Bolso = 12$\nSem Bolso = 8$\n\n🧦 Meia = 6$\n\n🧥👖 CONJUNTOS\nZíper até o Peito = 40/42$\nZíper completo = 43/48$\n\n👕 Polo = 13$\n\n🧥 Corta vento ou jaqueta = 30/35$\n\n👖 Calça = 17$\n\n📆 Camisa Retrô = 15$\n\n🏀 NBA\nBordada = 19$ a 24$\nSilkada = 20 a 24$\n\n👕 NOME E NÚMERO = 3$\n\n👕➕ TAMANHO EXTRA\n2XL +1$ \n3XL +2$\n\nPATCH🏆 = 1$ \n\n ✈️ FRETE\n👕 = 5$\n👕👕 = 4$\n👕👕👕 = 3$\n👕👕👕👕= 2$\n👕👕👕👕👕 = GRÁTIS!\n",
   },
 
+  "/dolarmolaosi": {
+    text: "*LINK PARA CHECAR O DÓLAR MO LAOSI:* \n\n https://www.aliexpress.com/item/1005005483501345.html?spm=5261.ProductManageOnline.0.0.83cb2ddbtiQOoh",
+  },
   // "/dolarkaka": { text: "*LINK DE COMPRA KAKA* \nhttps://www.aliexpress.com/item/1005005410235828.html?spm=5261.ProductManageOnline.0.0.602a4edfQYlhBz" },
   
  

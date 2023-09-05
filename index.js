@@ -1,7 +1,8 @@
 const baileys = require("@adiwajshing/baileys");
 const path = require("path");
 const pino = require("pino");
-const message_list = require("./messages");
+
+const { get_message_list } = require("./messages");
 
 const {
   DisconnectReason,
@@ -35,7 +36,7 @@ const connect = async (ws) => {
   // store.writeToFile(store_file);
 
   sock = makeWaSocket({
-    version: [2,2323,4],
+    version: [2, 2323, 4],
     printQRInTerminal: true,
     auth: {
       creds: state.creds,
@@ -127,7 +128,7 @@ const connect = async (ws) => {
         if (!chat_jid) return;
 
         const input = chat.message.conversation.toLocaleLowerCase();
-        const answer = message_list[input];
+        const answer = await get_message_list(input);
 
         if (!answer) return;
 

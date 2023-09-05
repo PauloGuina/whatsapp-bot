@@ -4,3 +4,4 @@
 store.json
 /auth
 *.pem
+*.db

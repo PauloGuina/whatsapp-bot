@@ -111,6 +111,10 @@ const get_message_list = async (input) => {
       text: "NÃÃÃÃÃÃÃÃÃOO!!!!!!!!!!!!!!!! EU NÃO VOUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU",
     },
 
+    "picudo.": {
+      text: "NÃÃÃÃÃÃÃÃÃOO!!!!!!!!!!!!!!!! EU NÃO VOUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU",
+    },
+
     "oi": {
       text: "Hola, que tal?",
     },

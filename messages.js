@@ -79,7 +79,7 @@ const get_message_list = async (input) => {
       text: "👍",
     },
 
-    "Ih": {
+    "ih": {
       text: "pronto...",
     },
 
@@ -99,19 +99,19 @@ const get_message_list = async (input) => {
       text: "Ai... Tá bom... To indo.",
     },
 
-    "Eu": {
+    "eu": {
       text: "Você",
     },
 
-    "Estou": {
+    "estou": {
       text: "Está",
     },
 
-    "Picudo": {
+    "picudo": {
       text: "NÃÃÃÃÃÃÃÃÃOO!!!!!!!!!!!!!!!! EU NÃO VOUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU",
     },
 
-    "Oi": {
+    "oi": {
       text: "Hola, que tal?",
     },
 
@@ -127,7 +127,7 @@ const get_message_list = async (input) => {
       text: "Tá querendo porra quente na boca, só pode...",
     },
 
-    "que PORRA": {
+    "que porra": {
       text: "Eh essa...",
     },
 
@@ -139,11 +139,11 @@ const get_message_list = async (input) => {
       text: "ESTOU COM ESSA DÚVIDA TAMBÉM???? BOM DIA! COMO RESOLVEMOS ISSO?",
     },    
 
-    "Não.": {
+    "não.": {
       text: "não o QUÊ, HEIN? Filho da puta.",
     },
 
-    "PRIMA": {
+    "prima": {
       text: "AIII MEU DEUS LÁ VEM BABADO FORTEEEEEE!!!! 😍😍😍😍😍😍",
     },
 

@@ -23,7 +23,7 @@ const get_message_list = async (input) => {
 
     "gostei.": { text: "afff..." },
 
-    gostei: { text: "😍" },
+    "gostei": { text: "😍" },
 
     "gostei porra": { text: "😍🍆🍼" },
 
@@ -35,9 +35,9 @@ const get_message_list = async (input) => {
 
     "ok cadu.": { text: "😍" },
 
-    cubo: { text: "🤓🏳️‍⚧️" },
+    "cubo": { text: "🍆" },
 
-    primo: { text: "priminho..." },
+    "primo": { text: "priminho..." },
 
     "no sofazinho é mais gostoso...": {
       image: fs.readFileSync("./media/sofa.jpg"),
@@ -59,6 +59,8 @@ const get_message_list = async (input) => {
 
     "??": { text: "!!" },
 
+    "?": { text: "Fiquei com essa dúvida também!" },
+
     "vai tomar no cu": { text: "Vai você, seu desbocado! 😤" },
 
     "vai se foder": { text: "Vai você, seu desbocado! 😤" },
@@ -76,6 +78,75 @@ const get_message_list = async (input) => {
     "valeu cadu.": {
       text: "👍",
     },
+
+    "Ih": {
+      text: "pronto...",
+    },
+
+    "estou picudo": {
+      text: "*ATENÇÃO*\n\nLuiz Felipe está tomando um banho e se masturbando agora. Tente contato novamente mais tarde para que ele assista uma jogatina",
+    },
+
+    "estou picudo.": {
+      text: "Ai... Tá bom... To indo.",
+    },
+
+    "to picudo": {
+      text: "*ATENÇÃO*\n\nLuiz Felipe está tomando um banho e se masturbando agora. Tente contato novamente mais tarde para que ele assista uma jogatina",
+    },
+
+    "to picudo.": {
+      text: "Ai... Tá bom... To indo.",
+    },
+
+    "Eu": {
+      text: "Você",
+    },
+
+    "Estou": {
+      text: "Está",
+    },
+
+    "Picudo": {
+      text: "NÃÃÃÃÃÃÃÃÃOO!!!!!!!!!!!!!!!! EU NÃO VOUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU",
+    },
+
+    "Oi": {
+      text: "Hola, que tal?",
+    },
+
+    "ok": {
+      text: "é isso aí primo, continue a concordar que no futuro você será diferenciado em tudo o que fizer...!!!",
+    },
+
+    "kk": {
+      text: "Essa risadinha aí é de quem quer pica hein! haha...",
+    },
+
+    "kk.": {
+      text: "Tá querendo porra quente na boca, só pode...",
+    },
+
+    "que PORRA": {
+      text: "Eh essa...",
+    },
+
+    "mlk": {
+      text: "fala cmg mulekote!",
+    },
+
+    "???": {
+      text: "ESTOU COM ESSA DÚVIDA TAMBÉM???? BOM DIA! COMO RESOLVEMOS ISSO?",
+    },    
+
+    "Não.": {
+      text: "não o QUÊ, HEIN? Filho da puta.",
+    },
+
+    "PRIMA": {
+      text: "AIII MEU DEUS LÁ VEM BABADO FORTEEEEEE!!!! 😍😍😍😍😍😍",
+    },
+
 
     // Comandos
 
@@ -116,6 +187,9 @@ const get_message_list = async (input) => {
     "/comocomprar": {
       text: "*COMO EFETUAR SUA PRIMEIRA COMPRA*\n\n*PRIMEIRO PASSO*\nSelecione sua camisa no catálogo yupoo, tire print e entre em contato com o CHINÊS do grupo (+86 ...)\n\n*SEGUNDO PASSO*\nEnvie fotos da camisa para ele, seguindo o seguinte padrão:\nType: Fan, Player, Retro ou afins\nSize: S, M, L, 2XL, 3XL, 4XL (digite /tamanhos2 para pegar a relação caso não saiba)\nWoman (se a camisa for feminina), Man (se for masculina)\n_Caso tenha customização_\nName: (NOMECUSTOMIZAÇÃO) -> Tudo em maiúsculo para o fornecedor não se confundir\nNumber: (NÚMERO)\n\n*TERCEIRO PASSO*\napós recolher seu pedido, o fornecedor irá te mandar um link do Aliexpress, geralmente o item vai custar algo em torno de 1 dólar.\nJunto ao link, o fornecedor te enviará o valor que deve ser pago. Por exemplo:\n9+5 = 13\nE aí você irá comprar 13 unidades do produto e enviar o ID da ordem pra ele.\nDepois disso, basta só aguardar que ele te enviará a foto do seu pedido pra você conferir antes que ele envie.",
     },
+
+
+
 
     // FORNECEDORES
 
